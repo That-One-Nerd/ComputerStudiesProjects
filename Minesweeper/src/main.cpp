@@ -1,3 +1,11 @@
+//**********722871**********
+//* Date: 9/10/2024
+//* Programmer: Kyle Gilbert
+//* Program Name: MINESWEE.8xp
+//* Program Description: A program that plays Minesweeper on the TI-84.
+//*                      No libraries except the default were used.
+//**************************
+
 #pragma region Boilerplate
 
 #pragma region Disregard
