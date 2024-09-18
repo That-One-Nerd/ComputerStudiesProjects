@@ -4,7 +4,10 @@
 # Build files.
 */bin/
 */obj/
+*/*/bin/
+*/*/obj/
 convimg.out
 
 # Other stuff.
 .DS_Store
+*/.vs/

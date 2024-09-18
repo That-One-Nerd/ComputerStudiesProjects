@@ -12,3 +12,8 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
     - No additional libraries were used, only the built in TI libraries and the [TI CE toolchain](https://github.com/CE-Programming/toolchain).
     - Doesn't run great. It uses 16-bit color mode, so the graphics are somewhat slow to render. I attempted to find the way to switch to 4-bit color mode, but I didn't find enough useful info (the best I've found so far is to dissect the GraphX assembly code). Still runs decent though, I've made as many optimizations as I easily could with the renderer, and everything else is fast.
     - **WARNING**: This one can't be built without reconfiguring the `.clangd` file to include the path to the toolchain.
+- Blackjack/
+    - This program simulates casino blackjack rules. It allows for customizable player strategies.
+    - I made a few default strategies (draw until 17, simple card counting, simple probabilities).
+    - No additional libraries were used.
+    - It has two custom-rendered graphs on the console display. I haven't figured out how to use XTerm yet, so I'm generating individual characters.
