@@ -17,3 +17,8 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
     - I made a few default strategies (draw until 17, simple card counting, simple probabilities).
     - No additional libraries were used.
     - It has two custom-rendered graphs on the console display. I haven't figured out how to use XTerm yet, so I'm generating individual characters.
+- BonusTicTacToe/
+    - Plays tic-tac-toe. I made the game in Windows Forms.
+    - The game allows for customization for the board size (rows/columns), number of players (up to 8), amount needed in a row to win, and amount of wins needed to finish the game.
+    - Nice colors and sprites for each player. Scales seamlessly with a higher DPI.
+    - The only component used is the menu component. The board and sprites are rendered myself with OnPaint.
