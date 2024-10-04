@@ -22,3 +22,8 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
     - The game allows for customization for the board size (rows/columns), number of players (up to 8), amount needed in a row to win, and amount of wins needed to finish the game.
     - Nice colors and sprites for each player. Scales seamlessly with a higher DPI.
     - The only component used is the menu component. The board and sprites are rendered myself with OnPaint.
+- CentralizedChatRoom/
+    - A live chat room system I wrote myself. It does not use HTTP, it instead uses my own TCP packet system.
+    - Data transfer is automatically encrypted behind the scenes (though the server decrypts it when it gets it).
+    - Allows for as many people to connect as need be.
+    - The client is somewhat janky, but the server has zero issues from my testing.
