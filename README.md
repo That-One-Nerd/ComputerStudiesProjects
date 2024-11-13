@@ -27,3 +27,7 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
     - Data transfer is automatically encrypted behind the scenes (though the server decrypts it when it gets it).
     - Allows for as many people to connect as need be.
     - The client is somewhat janky, but the server has zero issues from my testing.
+- TypingTest
+    - A small game I made in like 2 hours. Using a list of words, it picks one at random and the user has to type it out.
+    - It has a one-minute timer, and highlights the letters you got right.
+    - Shows results as characters per minute, words per minute, and accuracy percentage at the end.
