@@ -36,3 +36,8 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
     - Create a `.sce` file (a somewhat easy to use plain text format)
     - Nice colors for each object. Scales seamlessly with a higher DPI.
     - Sweeps possible angles and speeds to try and find the path that brings the ball closest to the end point.
+- Fractal Visualizer
+    - A program that can be used to visualize fractals.
+    - Allows you to zoom in and drag the screen around in real time.
+    - Renders in multiple resolution scales so as to be as responsive as possible. Upscales over time.
+    - Currently does the mandlebrot set. It has support for any complex iterative fractal, but you have to code it yourself.

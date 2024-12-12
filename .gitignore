@@ -11,3 +11,4 @@ convimg.out
 # Other stuff.
 .DS_Store
 */.vs/
+*.zip
