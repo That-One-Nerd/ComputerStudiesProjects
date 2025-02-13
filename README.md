@@ -41,3 +41,7 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
     - Allows you to zoom in and drag the screen around in real time.
     - Renders in multiple resolution scales so as to be as responsive as possible. Upscales over time.
     - Currently does the mandlebrot set. It has support for any complex iterative fractal, but you have to code it yourself.
+- Ciphers
+	- Command-line tool that enciphers and deciphers text.
+	- Small thing. Not super good. I used it to complete homework for a different class.
+	- Uses an argument parsing library I also wrote.
