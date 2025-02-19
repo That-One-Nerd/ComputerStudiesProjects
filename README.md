@@ -31,17 +31,22 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
     - A small game I made in like 2 hours. Using a list of words, it picks one at random and the user has to type it out.
     - It has a one-minute timer, and highlights the letters you got right.
     - Shows results as characters per minute, words per minute, and accuracy percentage at the end.
-- AirTrajectoryBuilder
+- AirTrajectoryBuilder/
     - A program I wrote that simulates the air trajectory of a projectile. Finished a while ago.
     - Create a `.sce` file (a somewhat easy to use plain text format)
     - Nice colors for each object. Scales seamlessly with a higher DPI.
     - Sweeps possible angles and speeds to try and find the path that brings the ball closest to the end point.
-- Fractal Visualizer
+- Fractal Visualizer/
     - A program that can be used to visualize fractals.
     - Allows you to zoom in and drag the screen around in real time.
     - Renders in multiple resolution scales so as to be as responsive as possible. Upscales over time.
     - Currently does the mandlebrot set. It has support for any complex iterative fractal, but you have to code it yourself.
-- Ciphers
+- Ciphers/
 	- Command-line tool that enciphers and deciphers text.
 	- Small thing. Not super good. I used it to complete homework for a different class.
 	- Uses an argument parsing library I also wrote.
+- BasicProjectionRenderer/
+	- A program that parses and renders an OBJ file.
+	- Not super optimized, but I've made a few tweaks to speed it up.
+	- All calculations are my own, from sin and cosine to matrix multiplication.
+	- Math code comes from a library I wrote, Nerd_STF.
