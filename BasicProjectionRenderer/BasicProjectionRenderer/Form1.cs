@@ -114,6 +114,7 @@ public partial class Form1 : Form
     private void OnTick(object? sender, EventArgs e)
     {
         elapsedTime += RefreshTimer.Interval * 1e-3;
+        //temp += MathE.Sin(elapsedTime * 8) * 0.9;
         if (Mesh is not null)
         {
             DateTime start = DateTime.Now;

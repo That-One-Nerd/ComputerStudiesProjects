@@ -50,3 +50,8 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
 	- Not super optimized, but I've made a few tweaks to speed it up.
 	- All calculations are my own, from sin and cosine to matrix multiplication.
 	- Math code comes from a library I wrote, Nerd_STF.
+- InverseKinematics/
+    - A program that calculates inverse kinematics for a series of joints.
+    - Took me less than an hour to write. Faster than I expected.
+    - Handles hundreds of nodes with very little optimization.
+    - Might improve in the future to work around obstacles.

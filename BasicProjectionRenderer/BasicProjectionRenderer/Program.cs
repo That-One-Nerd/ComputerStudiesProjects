@@ -19,8 +19,8 @@ public static class Program
     {
         Application.SetCompatibleTextRenderingDefault(false);
         Application.SetHighDpiMode(HighDpiMode.PerMonitorV2);
-
-        string path = "cube.obj";
+        
+        string path = "monkey.obj";
         FileStream fs = new(path, FileMode.Open);
         Mesh obj = Mesh.FromObj(fs);
         fs.Close();
