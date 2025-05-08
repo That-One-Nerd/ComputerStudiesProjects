@@ -55,3 +55,6 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
     - Took me less than an hour to write. Faster than I expected.
     - Handles hundreds of nodes with very little optimization.
     - Might improve in the future to work around obstacles.
+- GreenRemover/
+	- A python script that removes green from an image while keeping white looking normal.
+	- Not perfect, for example yellow is changed, but it's pretty good otherwise.
