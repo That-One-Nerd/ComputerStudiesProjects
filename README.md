@@ -58,3 +58,8 @@ I have about 1-2 weeks for each project. Check the Git commits for specific date
 - GreenRemover/
 	- A python script that removes green from an image while keeping white looking normal.
 	- Not perfect, for example yellow is changed, but it's pretty good otherwise.
+- DeepAnagramSearch/
+	- A program that searches for anagrams that are more than one word long.
+	- Took about an afternoon to code, and about as much time finding a word list that was sufficiently reasonable.
+	- The anagram solver is recursive and pretty fun to watch, though it's not particularly effective.
+	- It searches to the maximum depth immediately, rather than all one-depth, then all two-depth, etc. It could be improved.
